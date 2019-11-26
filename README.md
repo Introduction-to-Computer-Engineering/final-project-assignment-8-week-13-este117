@@ -31,7 +31,7 @@ Visualize the following signals, using the Auto regime and default settings (tri
    [servo.js](servo.js)
         
     
-        
+## 2C Warm Up
 
 
 
