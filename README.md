@@ -11,7 +11,7 @@ Submission
 Oscilloscope warmup:
 
 1) Visualize simple continuous signals:
-Visualize the following signals, using the Auto regime and default settings (trigger on a rising edge on CH1). For each signal, take a video of the setup (the source wire and connection of the oscilloscope probe) and the display of the oscilloscope, while varying one of the signal properties (wave shape, frequency, amplitude) using the controls of the source. Write up one sentence in the README, enough to be able to insert a link to the video. Signals:
+Visualize the following signals, using the Auto regime and default settings (trigger on a rising edge on CH1). For each signal, take a video of the setup (the source wire and connection of the oscilloscope probe) and the display of the oscilloscope, while varying one of the signal properties (wave shape, frequency, amplitude) using the controls of the source. Signals:
   
   
     i) 
