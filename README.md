@@ -4,9 +4,6 @@
 
 ## Part II (Week 13, Assignment #8)
 
-Submission
-
-1. Summary
 
 Oscilloscope warmup:
 
