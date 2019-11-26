@@ -31,7 +31,10 @@ Visualize the following signals, using the Auto regime and default settings (tri
    [servo.js](servo.js)
         
     
-## 2C Warm Up
+## I2C Warm Up
+
+  1. What are the disadvantages of the other two serial communication channels, UART and SPI, and how does I2C improve on         them?
+    The disadvantages of UART is that it requires two devices that have the same clock rate.  It is also difficult to     implement in terms of software due to the time complexity. The disadvantages of UART are the number of pins requiered due to  the amount of devices needed.
 
 
 
@@ -41,8 +44,3 @@ Visualize the following signals, using the Auto regime and default settings (tri
 
 
 
-Watch the first 4 oscilloscope videos referenced below.
-
-Take a look at the Rigol 1000 Series oscilloscopes documentation site to see what resources you have in case you need more in-depth knowledge.
-
-The oscilloscope shows continuous varying signals that it detects at the tips of its probes. The
