@@ -16,7 +16,7 @@ Visualize the following signals, using the Auto regime and default settings (tri
   
     i) [out.js](out.js)
     
-    ii) 
+    ii) [PWM_pulse](PWM_pulse)
 
 
 
