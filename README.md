@@ -17,11 +17,11 @@ Visualize the following signals, using the Auto regime and default settings (tri
     
     ii) Write a one-line micro:bit program to set an analog pin to emit PWM pulses:
     
-   [PWM_pulse](PWM_pulse)
+   [PWM_pulse](PWM_pulse.js)
     
     iii) Write a loop that varies the duty cycle, up and down, between 5% and 95%, in steps of 5%:
     
-   [PMW_5percent](PMW_5percent)
+   [PMW_5percent](PMW_5percent.js)
    
    iv) 
    
