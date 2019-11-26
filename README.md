@@ -14,9 +14,19 @@ Oscilloscope warmup:
 Visualize the following signals, using the Auto regime and default settings (trigger on a rising edge on CH1). For each signal, take a video of the setup (the source wire and connection of the oscilloscope probe) and the display of the oscilloscope, while varying one of the signal properties (wave shape, frequency, amplitude) using the controls of the source. Signals:
   
   
-    i) [out.js](out.js)
+    i) Configure the OUT of the built-in function generator on the workstation:
+        
+        [out.js](out.js)
     
-    ii) [PWM_pulse](PWM_pulse)
+    ii) Write a one-line micro:bit program to set an analog pin to emit PWM pulses:
+    
+        [PWM_pulse](PWM_pulse)
+    
+    iii) Write a loop that varies the duty cycle, up and down, between 5% and 95%, in steps of 5%:
+    
+        
+    
+        
 
 
 
