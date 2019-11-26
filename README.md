@@ -53,7 +53,9 @@ The address frame first must be generated and lets the slave know where the info
 
 The most appropriate trigger for capturing an I2C frame on the oscilloscope is SDA becasue of the SDA's falling edge.
 
+## First steps with I2C
 
+1. IC2 file : 
 
 
 
