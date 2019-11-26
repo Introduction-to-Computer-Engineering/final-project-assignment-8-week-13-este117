@@ -16,11 +16,11 @@ Visualize the following signals, using the Auto regime and default settings (tri
   
     i) Configure the OUT of the built-in function generator on the workstation:
         
-        [out.js](out.js)
+   [out.js](out.js)
     
     ii) Write a one-line micro:bit program to set an analog pin to emit PWM pulses:
     
-        [PWM_pulse](PWM_pulse)
+   [PWM_pulse](PWM_pulse)
     
     iii) Write a loop that varies the duty cycle, up and down, between 5% and 95%, in steps of 5%:
     
