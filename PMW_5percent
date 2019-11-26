@@ -1,0 +1,19 @@
+// PWM function varying duty cycle up and down
+
+basic.forever(function () {
+    // PWM function increases by 5% in first loop
+    // Starts at 5% of 180
+    for (let i = 9; i < 171; i += 9) {                        
+        basic.pause(100)
+        //increases the duty cycle as i increments
+        pins.servoWritePin(AnalogPin.P0, i)
+    }
+    // Decreases by 5% in second loop
+    // Starts at 95% of 180
+    for (let i = 171; i > 9; i += -9) {
+        basic.pause(100)
+        //decreases the duty cycle as i decrements
+        pins.servoWritePin(AnalogPin.P0, i)
+    }
+
+})
