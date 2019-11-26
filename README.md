@@ -55,7 +55,14 @@ The most appropriate trigger for capturing an I2C frame on the oscilloscope is S
 
 ## First steps with I2C
 
-1. IC2 file : 
+1. IC2 file : [write_I2C.js](write_I2C.js)
+
+2. Write a short program to read a number from the I2C devices on the microbit.
+
+  
+
+  
+
 
 
 
