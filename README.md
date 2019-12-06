@@ -14,6 +14,8 @@ Visualize the following signals, using the Auto regime and default settings (tri
     i) Configure the OUT of the built-in function generator on the workstation:
         
    [out.js](out.js)
+   
+   video: [Out.js](https://imgur.com/a/jv0HTJi)
     
     ii) Write a one-line micro:bit program to set an analog pin to emit PWM pulses:
     
