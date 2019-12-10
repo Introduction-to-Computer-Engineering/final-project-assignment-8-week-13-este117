@@ -105,6 +105,14 @@ The most appropriate trigger for capturing an I2C frame on the oscilloscope is S
   
   [signed.js](signed.js)
   
+   a) What values do you read?
+   
+        I read the value -128
+   
+   b) Can you get different values by moving the micro:bit around.
+   
+      No I cannot get different numbers by moving the mircrobit
+  
  ]
   
   
