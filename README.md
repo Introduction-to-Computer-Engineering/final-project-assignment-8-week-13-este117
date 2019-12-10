@@ -83,15 +83,13 @@ The most appropriate trigger for capturing an I2C frame on the oscilloscope is S
   image: [display.jpg](oscili.jpg)
   
   
-  Try signed and unsigned single bype integers.
+   Try signed and unsigned single bype integers.
+  
+   Unsigned byte integers:
+  
+   [Unsigned.js](accelerometer.js)
   
   
-  
-
-  
-  
- 
- [accelerometer.js](accelerometer.js)
 
   for the accelerometer the first address (0x19) is the slaves address. The next is the read address (0x33) and the last is             the write address (0x32). The last two tell the slave which operation to perform Read or Write.
   
@@ -102,10 +100,10 @@ The most appropriate trigger for capturing an I2C frame on the oscilloscope is S
   
   [signed.js](signed.js)
   
+ ]
   
-  Unsigned byte integers:
   
-  [unsigned.js](unsigned.js)
+
   
 
 
