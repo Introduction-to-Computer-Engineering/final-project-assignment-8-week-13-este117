@@ -89,6 +89,14 @@ The most appropriate trigger for capturing an I2C frame on the oscilloscope is S
    Unsigned byte integers:
   
    [Unsigned.js](accelerometer.js)
+   
+   What values do you read?
+   
+   I read the value 128
+   
+   Can you get different values by moving the micro:bit around.
+   
+   No I cannot get different numbers by moving the mircrobit
   
   
 
