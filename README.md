@@ -76,10 +76,16 @@ The most appropriate trigger for capturing an I2C frame on the oscilloscope is S
 2. Write a short program to read a number from the I2C devices on the microbit.
 
   i)  Try all three addresses. (Bonus for a cogent argument about why there are three.)
+
+  
+  code : [arbitrary.js](arbitrary.js)
+  
+  
+  
  
  [accelerometer.js](accelerometer.js)
 
-  for the accelerometer the first address (0x19) is the slaves address. The next is the read address (0x33) and the last is         the write address (0x32). The last two tell the slave which operation to perform Read or Write.
+  for the accelerometer the first address (0x19) is the slaves address. The next is the read address (0x33) and the last is             the write address (0x32). The last two tell the slave which operation to perform Read or Write.
   
  
   ii) Try signed and unsigned single bype integers.
