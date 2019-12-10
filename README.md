@@ -83,6 +83,12 @@ The most appropriate trigger for capturing an I2C frame on the oscilloscope is S
   image: [display.jpg](oscili.jpg)
   
   
+  Try signed and unsigned single bype integers.
+  
+  
+  
+
+  
   
  
  [accelerometer.js](accelerometer.js)
