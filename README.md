@@ -77,6 +77,9 @@ The most appropriate trigger for capturing an I2C frame on the oscilloscope is S
 
   i)  Try all three addresses. (Bonus for a cogent argument about why there are three.)
   
+  For the accelerometer the first address (0x19) is the slaves address. The next is the read address (0x33) and the last is             the write address (0x32). The last two tell the slave which operation to perform Read or Write.
+  
+  
   Setup: [Setup.jpg](https://i.imgur.com/i8BSO8T.jpg)
   
   code : [arbitrary.js](arbitrary.js)
@@ -84,28 +87,21 @@ The most appropriate trigger for capturing an I2C frame on the oscilloscope is S
   image: [display.jpg](oscili.jpg)
   
   
-   Try signed and unsigned single bype integers.
+   ii) Try signed and unsigned single bype integers.
   
-   Unsigned byte integers:
+   #Unsigned byte integers:
   
    [Unsigned.js](accelerometer.js)
    
-   What values do you read?
+   a) What values do you read?
    
    I read the value 128
    
-   Can you get different values by moving the micro:bit around.
+   b) Can you get different values by moving the micro:bit around.
    
    No I cannot get different numbers by moving the mircrobit
   
-  
-
-  for the accelerometer the first address (0x19) is the slaves address. The next is the read address (0x33) and the last is             the write address (0x32). The last two tell the slave which operation to perform Read or Write.
-  
- 
-  ii) Try signed and unsigned single bype integers.
-  
-  Signed byte integers:
+  #Signed byte integers:
   
   [signed.js](signed.js)
   
