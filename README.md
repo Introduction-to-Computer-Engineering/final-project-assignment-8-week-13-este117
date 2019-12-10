@@ -80,7 +80,7 @@ The most appropriate trigger for capturing an I2C frame on the oscilloscope is S
   
   code : [arbitrary.js](arbitrary.js)
   
-  image: [oscili.jpg](oscili.jpg)
+  image: [display.jpg](oscili.jpg)
   
   
   
