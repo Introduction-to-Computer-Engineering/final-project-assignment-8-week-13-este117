@@ -60,8 +60,17 @@ The most appropriate trigger for capturing an I2C frame on the oscilloscope is S
   
     a) What frame did you capture?
     
+    Initial address frame sent with I2C
+    
     [Image1027319.jpg](Image1027319.jpg)
+    
+    b) What does the I2C write function do when there is nothing connected?
       
+     Nothing happens since there is no slave connected to pull the SDA signal low. The master will try to initiate a transfer,                              but the slave will not confirm feedback
+     
+     c) Is there a difference in what you capture if you write a number to one of the internal device addresses?
+     
+     Yes, writing to an internal device will recieve feedback from the slave which will give you an address frame as well as a data frame. For arbitrary adresses however, there is no feedback from the slave only a data frame
      
 
 2. Write a short program to read a number from the I2C devices on the microbit.
