@@ -76,7 +76,8 @@ The most appropriate trigger for capturing an I2C frame on the oscilloscope is S
 2. Write a short program to read a number from the I2C devices on the microbit.
 
   i)  Try all three addresses. (Bonus for a cogent argument about why there are three.)
-
+  
+  Setup: [Setup.jpg](https://i.imgur.com/i8BSO8T.jpg)
   
   code : [arbitrary.js](arbitrary.js)
   
