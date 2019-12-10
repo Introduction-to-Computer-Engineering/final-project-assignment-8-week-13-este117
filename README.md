@@ -59,6 +59,8 @@ The most appropriate trigger for capturing an I2C frame on the oscilloscope is S
 1. IC2 file : [write_I2C.js](write_I2C.js)
   
     a) What frame did you capture?
+    
+    [Image1027319.jpg](Image1027319.jpg)
       
      
 
